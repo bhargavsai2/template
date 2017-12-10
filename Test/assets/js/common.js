@@ -1,11 +1,14 @@
 /* ==============================================
  Website Preloader
  =============================================== */
-
-$(window).on("load",function() {
+  $(window).load(function() {
+            //("div:first").addClass("w3-image");
+            setTimeout(function(){$(".se-pre-con").addClass('animated fadeOutUpBig')},4000);
+    });
+/*$(window).on("load",function() {
     'use strict';
     // Animate loader off screen
-    $(".se-pre-con").fadeOut( "slow" );
+    $(".se-pre-con").fadeOut("slow");
 
 });
 

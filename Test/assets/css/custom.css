@@ -1,4 +1,4 @@
-@import url('assets/css/normalize.css');
+@import url('normalize.css');
 
 /*fonts-are-here */
 
@@ -177,7 +177,7 @@ a.g:hover{
     color: #1f558d;
 }
 .blue-L{
-    color: #3870b1;
+    color: #8493a3;
 }
 .gold{
     color: #FDA10E;
@@ -208,7 +208,7 @@ a.g:hover{
 /*backgrounds-are-here*/
 
 .header-bg{
-    background: url('../images/backgrounds/main-bg.png') center fixed;
+    background: url('../images/backgrounds/bg10.jpg') center fixed;
     background-size: cover;
 }
 .blue-bg{
@@ -239,7 +239,7 @@ a.g:hover{
     background: rgba(241,241,241,.97);
 }
 .counter-bg{
-    background: url('../images/backgrounds/main-bg-2.png') left fixed;
+    background: url('../images/backgrounds/main-bg-2.jpg') left fixed;
     background-size: cover;
 }
 .hiw-bg{
@@ -1304,7 +1304,7 @@ footer .border-right{
     width: 100%;
     height: 100%;
     z-index: 9999999;
-    background: url('../images/preloader-small.gif') center no-repeat #fff;
+    background: url('../images/mygif.gif') center no-repeat #fff;
 }
 
 /*loader-styles-are-here*/
@@ -1346,3 +1346,23 @@ footer .border-right{
 }
 
 /*rest-pop-ups-styles-are-here*/
+.typewrite{
+  text-decoration: none;
+  /*font-family: 'El Messiri', sans-serif;*/
+  color:white;
+    /*font-weight: 1000;*/
+
+ }
+ .typewrite:hover{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+ }
+ .typewrite:active{
+  color: white;
+   text-decoration: none;
+ }
+ .typewrite:visited {
+  color: white;
+   text-decoration: none;
+ }
