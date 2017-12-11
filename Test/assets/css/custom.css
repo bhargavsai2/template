@@ -174,7 +174,7 @@ a.g:hover{
     color: #999;
 }
 .blue{
-    color: #1f558d;
+    color: #6b1eb2;
 }
 .blue-L{
     color: #8493a3;
@@ -212,15 +212,15 @@ a.g:hover{
     background-size: cover;
 }
 .blue-bg{
-    background: rgba(9,29,73,0.97);
+    background: linear-gradient(45deg,rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%);
 }
 .gradient{
-    background: -moz-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* ff3.6+ */
+    background: -moz-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(8,27,73,0.97)), color-stop(100%, rgba(30,101,178,0.97))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* ie10+ */
-    background: linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* w3c */
+    background: -webkit-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* w3c */
     overflow: hidden;
 }
 .gradient50{
@@ -558,12 +558,12 @@ textarea:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholde
 .nav-fixed{
     position: fixed;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(8, 27, 73, 0.6);
-    background: -moz-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* ff3.6+ */
+    background: -moz-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(8,27,73,0.97)), color-stop(100%, rgba(30,101,178,0.97))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* ie10+ */
-    background: linear-gradient(45deg, rgba(8,27,73,0.97) 0%, rgba(30,101,178,0.97) 100%); /* w3c */
+    background: -webkit-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* ie10+ */
+    background: linear-gradient(45deg,rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* w3c */
 }
 
 /*navbar-styling-is-here*/
@@ -894,7 +894,7 @@ textarea:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholde
     background: -webkit-linear-gradient(45deg, rgba(30,101,178,0.94) 0%, rgba(8,27,73,0.94) 100%); /* safari5.1+,chrome10+ */
     background: -o-linear-gradient(45deg, rgba(30,101,178,0.94) 0%, rgba(8,27,73,0.94) 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(45deg, rgba(30,101,178,0.94) 0%, rgba(8,27,73,0.94) 100%); /* ie10+ */
-    background: linear-gradient(45deg, rgba(30,101,178,0.94) 0%, rgba(8,27,73,0.94) 100%); /* w3c */
+    background: linear-gradient(45deg,rgba(82, 28, 81, 0.92) 0%, rgba(80, 39, 117, 0.92) 100%); /* w3c */
     transition: all 0.3s;
 }
 .team-member .member-desc p{
@@ -1164,7 +1164,7 @@ textarea:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholde
 }
 .login-div .head h3{
     font-family: robo-medium;
-    color: #174583;
+    color: #6b1eb2;
     font-size: 20px;
 }
 .login-div .head p{
@@ -1351,18 +1351,22 @@ footer .border-right{
   /*font-family: 'El Messiri', sans-serif;*/
   color:white;
     /*font-weight: 1000;*/
+    cursor:default;
 
  }
  .typewrite:hover{
   text-decoration: none;
   color: white;
-  cursor: pointer;
+  cursor:default;
+
  }
  .typewrite:active{
   color: white;
    text-decoration: none;
+   cursor:default;
  }
  .typewrite:visited {
   color: white;
    text-decoration: none;
+   cursor:default;
  }
