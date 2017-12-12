@@ -220,7 +220,7 @@ a.g:hover{
     background: -webkit-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* safari5.1+,chrome10+ */
     background: -o-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* ie10+ */
-    background: linear-gradient(45deg, rgba(73, 8, 71, 0.92) 0%, rgba(107, 30, 178, 0.92) 100%); /* w3c */
+    background: linear-gradient(45deg, rgba(73, 8, 71, 0.82) 0%, rgba(107, 30, 178, 0.92) 100%); /* w3c */
     overflow: hidden;
 }
 .gradient50{
