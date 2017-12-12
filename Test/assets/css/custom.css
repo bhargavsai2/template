@@ -247,7 +247,7 @@ a.g:hover{
     background-size: cover;
 }
 .dark-bg{
-    background: #0C1222;
+    background: #210029;
 }
 .gold-gradient-bg{
     background: -moz-linear-gradient(left, #FDA10E 0%, #FF6C0D 100%);
@@ -314,7 +314,7 @@ a.g:hover{
 .btn-gradient.outline-button div span{
     background:linear-gradient(to right, #FDA10E, #FF6C0D);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: white;
     transition: all 0.3s;
 }
 .btn-gradient.outline-button:hover div span{
