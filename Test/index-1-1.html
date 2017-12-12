@@ -42,7 +42,7 @@
 
 </head>
 <body>
-<div class="se-pre-con"></div>
+<!--div class="se-pre-con"></div-->
 
 
 
@@ -144,7 +144,7 @@
                                         </div>
                                     </div>
                                     <div class="foot">
-                                        <a href="javascript:;" class="forgot pull-left"><small>forgot your password?</small></a>
+                                        <a href="javascript:;" class="forgot pull-left" data-toggle="modal" data-target="#pop-forgotpass"><small>forgot your password?</small></a>
                                         <button class="btn btn-gradient W100 pull-right" data-aos="zoom-in-up" data-aos-duration="800">Login!</button>
                                     </div>
                                 </form>
@@ -493,8 +493,8 @@
                                 <li class="oR light" data-aos="fade-left" data-aos-duration="1000"><p>	Your security is our only priority. Your card details are extremely safe as they are never stored on Oinky.in. We work with a PCIDSS-compliant payment processor, Paystack to handle your card details.</p></li>
                                 <li class="oR light" data-aos="fade-left" data-aos-duration="1000"><p>everything is done automatically except you want to use the QuickSave option. All transactions on your debit card will be visible in your dashboard. We will also send an email receipt to you every single time we save with your debit card and your bank will also send you an alert. It's 100% secure.</p></li>
                                 <li class="oR light" data-aos="fade-left" data-aos-duration="1000"><p>you can pause or continue the automatic saving any time for free. Just log in and click on "pause", that's it.</p></li>
-                                <li class="oR light" data-aos="fade-left" data-aos-duration="1000"><p>, you can increase the amount you're saving at anytime. Simply login and click 'modify AutoSave instruction', then edit the amount. You can also edit your frequency to either daily, weekly or monthly.</p></li>
-                                <li class="oR light" data-aos="fade-left" data-aos-duration="1000"><p>•	The SafeLock feature is one step further in curbing the temptation to touch money that you have put aside as your savings. You can choose to lock all or parts of your Oinky savings for any duration between  10 and 1000 days.</p></li>
+                                <li class="oR light" data-aos="fade-left" data-aos-duration="1000"><p>you can increase the amount you're saving at anytime. Simply login and click 'modify AutoSave instruction', then edit the amount. You can also edit your frequency to either daily, weekly or monthly.</p></li>
+                                <li class="oR light" data-aos="fade-left" data-aos-duration="1000"><p>The SafeLock feature is one step further in curbing the temptation to touch money that you have put aside as your savings. You can choose to lock all or parts of your Oinky savings for any duration between  10 and 1000 days.</p></li>
                             </ul>
                         </div>
                     </div>
@@ -1059,7 +1059,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-gradient" data-dismiss="modal">Register</button>
+                        <button class="btn btn-gradient">Register</button>
                     </div>
                 </form>
             </div>
@@ -1069,6 +1069,48 @@
    
 
  <!-- Register Popup -->
+
+<!--forgot password-->
+
+<div id="pop-forgotpass" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            
+
+    <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" data-aos="zoom-in-up" data-aos-duration="800">&times;</button>
+                    <h3 class="modal-title  blue oR m0">Change Password</h3>
+                    <span class="light oR" style="font-size: 14px">Enter your new password</span>
+                </div>
+                <form action="#">
+                    <div class="modal-body">
+                        
+                        <div class="input-box">
+                            <input placeholder="Email Address" type="email" required>
+                            <span style="position: absolute"><i class="fa fa-envelope-o"></i></span>
+                        </div>
+                        <div class="input-box">
+                            <input placeholder="New Password" type="password" required>
+                            <span style="position: absolute"><i class="fa fa-key"></i></span>
+                        </div>
+                        <div class="input-box">
+                            <input placeholder="Confirm New Password" type="password" required>
+                            <span style="position: absolute"><i class="fa fa-key"></i></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-gradient">Change</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+<!--forgot password-->
+
 
     
 
