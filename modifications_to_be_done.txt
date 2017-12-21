@@ -72,5 +72,5 @@ ok
 
 reference
 https://www.phpflow.com/php/user-registration-form-php-mysql-google-recaptcha/
-
+header("Refresh: 5; url=index.php");
 	
