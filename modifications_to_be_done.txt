@@ -73,4 +73,9 @@ ok
 reference
 https://www.phpflow.com/php/user-registration-form-php-mysql-google-recaptcha/
 header("Refresh: 5; url=index.php");
+===========23-12-2017============
+http://www.assafelovic.com/blog/2016/4/29/how-to-create-a-dynamic-html-email-template  -email template
+http://www.mostlikers.com/2015/02/send-email-with-html-template-using-php.html         -email template
+https://www.phpflow.com/php/user-registration-form-php-mysql-google-recaptcha/         -registration form
+https://www.formget.com/jquery-registration-form/					-registration form
 	
