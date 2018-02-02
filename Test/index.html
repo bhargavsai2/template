@@ -185,8 +185,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img class="img-responsive hidden-xs" src="assets/images/logo.png"></a>
-            <a class="navbar-brand" href="index.html"><img class="img-responsive visible-xs" src="assets/images/logo1.png"></a>
+            <a class="navbar-brand hidden-xs" href="index.html"><img class="img-responsive" src="assets/images/logo.png"></a>
+            <a class="navbar-brand visible-xs" href="index.html"><img class="img-responsive" src="assets/images/logot.png"></a>
         </div>
 
         
@@ -205,9 +205,9 @@
                 
 	 <li><a href="#about-section">ABOUT US</a></li>
                 
-	 <li><a href="#how-section">HOW</a></li>
+	 <!--li><a href="#how-section">HOW</a></li>
                 
-	 <li><a href="#why-us-section">WHY OINKY?</a></li>
+	 <li><a href="#why-us-section">WHY OINKY?</a></li-->
                 
 	 <li><a href="#offers-section">OFFERS</a></li> 
    
@@ -255,16 +255,16 @@
                             <p class="rL blue-L"><i>"We must gain control over our money or the lack of it will forever control us."</i></p>
                             <button class="btn btn-gradient" data-aos="zoom-in-up" data-aos-duration="800">Get App</button>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12 pull-right">
+                        <div class="col-md-6 col-sm-6 col-xs-12 pull-right animation">
                             <div class="login-div centered" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="head">
                                     <h3 class="purple oR m0">Already a Friend of Oinky?</h3>
                                     <p class="light oR">Enter your credentials to say Hi!</p>
                                 </div>
                                 
-                                 <form action="login_db.php" method="post" id="ajax-contact">
+                                 <form action="login_db.php" method="post" id="ajax-login">
                                     <div class="body">
-                                    <div id="form-messages" align="center"></div>
+                                    <div id="login-messages" align="center"></div>
                                         <div class="input-box">
                                             <input placeholder="Email" name="f_email" id="f_email" type="text" required>
                                             <span style="position: absolute"><i class="fa fa-user"></i></span>
@@ -1389,16 +1389,19 @@ Number Counter -->
 
 <!-- Newsletter -->
 	
-	<section class="sectionP40" style="background: linear-gradient(45deg,rgb(73, 8, 71) 0%, rgb(107, 30, 178) 100%);">
+	<section class="sectionP20" style="background: linear-gradient(45deg,rgb(73, 8, 71) 0%, rgb(107, 30, 178) 100%);">
     <div class="container">
-        <div class="heading-text" style="text-align: center; padding-bottom: 30px;">
+        <!--div class="heading-text" style="text-align: center; padding-bottom: 30px;">
                             <span class="gold-gradient-color"><b>Please Subscribe</b></span>
-                        </div>
+                        </div-->
         <div class="row">
 
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="col-md-6 col-sm-7 col-xs-12 res-txt-center">
-                    <p class="white rL m0" style="margin-top: 4px; font-size: 16px;">In love with what you are reading?<br> Be the first to be notified.<br> Subscribe to our Newsletter..</p>
+                  <div class="heading-text">
+                            <span class="gold-gradient-color"><b>Please Subscribe</b></span>
+                        </div>
+                    <p class="white rL m0" style="margin-top: 4px; font-size: 16px;">In love with what you are reading?<br> Be the first to be notified.</p>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <form action="" method="post">
@@ -1496,8 +1499,9 @@ Number Counter -->
         <link href="assets/css/Footer-with-button-logo.css">
                         <h3 class="blue oB"> Our Social links </h3>
   <br>                             <div class="social-networks">
-                        <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter" style="font-size:30px; padding: 10px;"></i></a>   <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook" style="font-size:30px; padding: 10px;"></i></a>
-                        <a href="https://plus.google.com" class="google"><i class="fa fa-google-plus" style="font-size:30px; padding: 10px;"></i></a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter" style="font-size:30px; padding: 10px;"></i></a>   <a href="#" class="facebook"><i class="fa fa-facebook" style="font-size:30px; padding: 10px;"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus" style="font-size:30px; padding: 10px;"></i></a>
+                        <a href="#" class="google"><i class="fa fa-instagram" style="font-size:30px; padding: 10px;"></i></a>
                     </div>
     <p class="light oR">   </p>
    </div>	</div>	</div>                                                       </div>
@@ -1581,7 +1585,7 @@ Number Counter -->
 <!-- Register Popup -->
     
 
-	<div id="pop-register" class="modal fade" role="dialog">
+	<div id="pop-register" class="modal fade" role="dialog" class="animation1">
         <div class="modal-dialog">
 
             
@@ -1593,18 +1597,20 @@ Number Counter -->
                     <h3 class="modal-title  blue oR m0">New Friend?</h3>
                     <span class="light oR" style="font-size: 14px">Enter your informations to know about me</span>
                 </div>
-                <form action="registration_data_to_db.php" method="post">
+                <form action="registration_data_to_db.php" method="post" id="ajax-register">
+                
                     <div class="modal-body">
+                    <div id="register-messages" align="center"></div>
                         <div class="input-box">
-                            <input placeholder="Full Name" name="name" type="text" required>
+                            <input placeholder="Full Name" name="name" id="name" type="text" required>
                             <span style="position: absolute"><i class="fa fa-user"></i></span>
                         </div>
                         <div class="input-box">
-                            <input placeholder="Email Address" name="email" type="email" required>
+                            <input placeholder="Email Address" id="email" name="email" type="email" required>
                             <span style="position: absolute"><i class="fa fa-envelope-o"></i></span>
                         </div>
                          <div class="input-box">
-                            <input placeholder="Mobile number -(XX-XX-XX-XX-XX)" name="mobile" type="tel" title="number contains numerics up to 10" pattern="/^+91(7\d|8\d|9\d)\d{9}$/" required>
+                            <input placeholder="Mobile number -(XX-XX-XX-XX-XX)" name="mobile" type="tel" title="number contains numerics up to 10" id="mobile" maxlength="10"  pattern="[0-9]{10}" required>
                             <span style="position: absolute"><i class="fa fa-phone"></i></span>
                         </div>
                         <div class="input-box">
@@ -2213,13 +2219,14 @@ else
 //empty string means no validation error
 }
 
+                                        /****login ajax****/
 $(function() {
 
     // Get the form.
-    var form = $('#ajax-contact');
+    var form = $('#ajax-login');
 
     // Get the messages div.
-    var formMessages = $('#form-messages');
+    var formMessages = $('#login-messages');
 
     // Set up an event listener for the contact form.
     $(form).submit(function(e) {
@@ -2242,16 +2249,80 @@ $(function() {
 
             // Set the message text.
             $(formMessages).text(response);
-            $("#form-messages").addClass('animated tada').fadeOut(2000);
+            $("#login-messages").addClass('animated tada').fadeOut(2000);
             // Clear the form.
             $('#f_email').val('');
             $('#f_password').val('');
-           // window.location.replace("http://localhost:8080/oinkyupdate/contact.html");
+            window.location.replace("contact.html");
         })
         .fail(function(data) {
             // Make sure that the formMessages div has the 'error' class.
             $(formMessages).removeClass('success');
             $(formMessages).addClass('error');
+            $(".animation").addClass('animated shake');
+            // Set the message text.
+            if (data.responseText !== '') {
+                $(formMessages).text(data.responseText);
+            } else {
+                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+            }
+        });
+
+    });
+
+});
+                                      /****login ajax****/
+
+                                      /****register ajax****/
+
+
+$(function() {
+
+    // Get the form.
+    var form = $('#ajax-register');
+
+    // Get the messages div.
+    var formMessages = $('#register-messages');
+
+    // Set up an event listener for the contact form.
+    $(form).submit(function(e) {
+        // Stop the browser from submitting the form.
+        e.preventDefault();
+
+        // Serialize the form data.
+        var formData = $(form).serialize();
+
+        // Submit the form using AJAX.
+        $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData
+        })
+       .done(function(response) {
+            // Make sure that the formMessages div has the 'success' class.
+            $(formMessages).removeClass('error');
+            $(formMessages).addClass('success');
+
+            // Set the message text.
+            $(formMessages).text(response);
+            $("#register-messages").addClass('animated tada');
+            // Clear the form.
+            $('#name').val('');
+            $('#email').val('');
+            $('#mobile').val('');
+            $('#password1').val('');
+            $('#password2').val('');
+
+           //window.location.replace("http://localhost:8080/oinkyupdate/contact.html");
+        })
+        .fail(function(data) {
+            // Make sure that the formMessages div has the 'error' class.
+            $(formMessages).removeClass('success');
+            $(formMessages).addClass('error');
+            $("#register-messages").addClass('animated shake');
+            $('#email').val('');
+            $('#password1').val('');
+            $('#password2').val('');
 
             // Set the message text.
             if (data.responseText !== '') {
@@ -2265,6 +2336,7 @@ $(function() {
 
 });
 
+                                        /****register ajax****/
 </script>
 </body>
 
